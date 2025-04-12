@@ -1,5 +1,5 @@
 # Face Generator using DCGAN (CelebA Dataset)
-![gif](assets\DCGAN.gif)
+![gif](assets/DCGAN.gif)
 
 This project implements a Deep Convolutional Generative Adversarial Network (DCGAN) using PyTorch to generate realistic human faces. It uses the CelebA dataset containing 202,599 celebrity images and is modularized for flexibility—so you can train on your own dataset too!
 
@@ -27,7 +27,7 @@ This project implements a Deep Convolutional Generative Adversarial Network (DCG
 
 Generated samples during training:
 
-![image](saved_images\image_23500.png)
+![image](saved_images/image_23500.png)
 
 More samples get saved automatically in the `saved_images/` folder.
 
@@ -91,7 +91,7 @@ DEVICE = "cuda" or "cpu"
 
 ## 📈 Training Progress
 
-![image](assets\loss_plot.png)
+![image](assets/loss_plot.png)
 
 * Generator and Discriminator losses are logged to the console
 * Images are saved every 500 iterations
